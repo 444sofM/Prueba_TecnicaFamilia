@@ -26,9 +26,7 @@ export default function Home() {
       {showButton && (
         <div className="mt-6">
           <Link href="/page3">
-            <button className="btn-primary hover:scale-105 transition-transform">
-              Seguir
-            </button>
+         
           </Link>
         </div>
       )}

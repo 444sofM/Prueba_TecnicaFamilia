@@ -10,7 +10,7 @@ import { openai } from "@/lib/openai/index";
 const analysisSchema: OpenAI.ResponseFormatJSONSchema["json_schema"] = {
   name: "LicitationAnalysis",
   description:
-    "Analyze a civil engineering licitation document and extract specific information.",
+    "Analyze a licitation document and extract specific information.",
   schema: {
     type: "object",
     properties: {
